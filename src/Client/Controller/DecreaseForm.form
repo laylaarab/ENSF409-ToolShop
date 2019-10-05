@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Client.Controller.DecreaseForm">
+  <grid id="cbd77" binding="contentPane" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="48" y="54" width="436" height="297"/>
+    </constraints>
+    <properties>
+      <preferredSize width="350" height="90"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <toolbar id="bf6a0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-4662027"/>
+          <floatable value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ebbfb" class="javax.swing.JButton" binding="OKButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-11157259"/>
+              <foreground color="-12828863"/>
+              <text value="OK"/>
+            </properties>
+          </component>
+          <component id="2afce" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-11157259"/>
+              <foreground color="-12828863"/>
+              <text value="Cancel"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <grid id="8a9bd" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4b00" class="javax.swing.JTextField" binding="item">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-2180105"/>
+              <caretColor color="-12828863"/>
+              <foreground color="-12828863"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+          <component id="17d82" class="javax.swing.JComboBox" binding="searchType">
+            <constraints border-constraint="West"/>
+            <properties>
+              <background color="-3562530"/>
+              <minimumSize width="90" height="30"/>
+              <model>
+                <item value="Item ID"/>
+                <item value="Item Name"/>
+              </model>
+              <preferredSize width="90" height="30"/>
+            </properties>
+          </component>
+          <grid id="a966d" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="f4172" class="javax.swing.JTextField" binding="Quantity">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-2180105"/>
+                  <foreground color="-12828863"/>
+                  <minimumSize width="100" height="30"/>
+                  <preferredSize width="100" height="30"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="47e46" class="javax.swing.JLabel">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <background color="-4662027"/>
+                  <foreground color="-12828863"/>
+                  <text value="Enter amount to decrease quantity by:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

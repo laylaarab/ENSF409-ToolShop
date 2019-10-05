@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Client.View.UserGUI">
+  <grid id="592ba" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="500"/>
+    </constraints>
+    <properties>
+      <background color="-1657945"/>
+      <minimumSize width="500" height="500"/>
+      <preferredSize width="500" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <toolbar id="dd442">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-17217"/>
+          <floatable value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a86ae" class="javax.swing.JButton" binding="showToolsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1140324"/>
+              <text value="Show Tools"/>
+            </properties>
+          </component>
+          <component id="266b3" class="javax.swing.JButton" binding="searchButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1140324"/>
+              <text value="Search"/>
+            </properties>
+          </component>
+          <component id="967c2" class="javax.swing.JButton" binding="decreaseItemQuantityButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-1140324"/>
+              <foreground color="-12828863"/>
+              <text value="Decrease Item Quantity"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor" id="2f2f9"/>
+  </inspectionSuppressions>
+</form>
