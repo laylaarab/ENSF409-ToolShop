@@ -52,9 +52,6 @@ public class Server {
     public Server(int portNum) {
         try {
             serverSocket = new ServerSocket(portNum);
-//            socket = serverSocket.accept();
-//            socketOut = new PrintWriter((socket.getOutputStream()), true);
-//            socketIn = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             pool = Executors.newCachedThreadPool();
             database = new Database();
         } catch (IOException e) {

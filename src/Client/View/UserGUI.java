@@ -40,7 +40,6 @@ public class UserGUI {
     private JButton searchButton;
     private JButton decreaseQuantityButton;
     private JButton checkQuantityButton;
-    //    private JTable ItemTable;
 
     /**
      * listener object to react to action in gui
